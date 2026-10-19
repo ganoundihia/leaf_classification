@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Dataset (not versioned, see README)
+feuilles_plantes/
+data/
+*.zip
+*.rar
+
+# Editors / tools
+.vscode/
+.idea/
+.claude/
+.DS_Store
+
+# Local copy of the weights (hosted on Hugging Face Hub)
+models/*.pth
+models/*.npz
+
+# Cached feature vectors (scripts/fit_leaf_detector.py)
+.cache/

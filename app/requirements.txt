@@ -1,0 +1,9 @@
+# Dependencies for Streamlit Community Cloud, which reads the requirements file
+# next to the entry point first. CPU-only PyTorch: much smaller, no GPU on the host.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.9.1+cpu
+torchvision==0.24.1+cpu
+streamlit==1.50.0
+pillow==11.3.0
+huggingface_hub==1.24.0
+open_clip_torch==3.3.0

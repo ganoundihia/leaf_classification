@@ -1,0 +1,5 @@
+# Evaluation and tests
+-r requirements.txt
+scikit-learn==1.9.0
+matplotlib==3.10.6
+pytest==8.4.2

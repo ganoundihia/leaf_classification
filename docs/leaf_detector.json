@@ -1,0 +1,22 @@
+{
+  "threshold": 59.449,
+  "keep_target_on_val": 0.99,
+  "test_leaves": {
+    "n": 600,
+    "accepted": 0.9917
+  },
+  "non_leaves": {
+    "imagenette": {
+      "n": 500,
+      "rejected": 0.986
+    },
+    "screenshots": {
+      "n": 4,
+      "rejected": 1.0
+    },
+    "synthetic": {
+      "n": 60,
+      "rejected": 0.95
+    }
+  }
+}

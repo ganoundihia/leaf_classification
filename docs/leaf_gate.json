@@ -1,0 +1,48 @@
+{
+  "threshold": 0.2,
+  "groups": {
+    "herbarium test leaves": {
+      "n": 300,
+      "accepted": 0.9733,
+      "errors": [
+        "castarea031_6.jpg",
+        "desmodium098_11.jpg",
+        "desmodium095_6.jpg",
+        "amborella033_9.jpg",
+        "convolvulaceae009_13.jpg",
+        "desmodium097_6.jpg",
+        "convolvulaceae045_18.jpg",
+        "desmodium095_7.jpg"
+      ]
+    },
+    "leaves: fresh_leaves": {
+      "n": 216,
+      "accepted": 0.9861,
+      "errors": [
+        "val__Neem__aug_20241108_133633_1.jpg",
+        "val__Tulsi__aug_IMG-20241109-WA0394_3.jpg",
+        "val__Tulsi__aug_IMG-20241109-WA0400_3.jpg"
+      ]
+    },
+    "not leaves: imagenette": {
+      "n": 500,
+      "rejected": 1.0,
+      "errors": []
+    },
+    "not leaves: screenshots": {
+      "n": 4,
+      "rejected": 1.0,
+      "errors": []
+    },
+    "not leaves: synthetic": {
+      "n": 60,
+      "rejected": 1.0,
+      "errors": []
+    },
+    "not leaves: user_food": {
+      "n": 3,
+      "rejected": 1.0,
+      "errors": []
+    }
+  }
+}
